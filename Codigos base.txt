@@ -1,0 +1,63 @@
+// Inicializar repositorio local:
+git init
+
+// Vincular repositorio local al remoto:
+git remote add origin /urlremoto/
+
+// Verificar la vincualcion
+git remote -v
+
+// Configuraciones globales:
+git config -l
+
+// limpiar patalla:
+clear
+
+// Indicar nombre de usuario:
+git config --global user.name "nombreusuario"
+
+// Indicar mail de usuario:
+git config --global user.mail "mailusuario@mail.com"
+
+// Chequeamos que parte de nuestro proyecto (codigo nuevo o sin commit) no esta cargado al repositorio remoto
+git status
+
+// Integramos el cogido para subir
+git add .
+
+// Commit
+git commit -m "mensajedelcommit"
+
+// Push (envaimos la info al repositorio remoto)
+git push origin master
+
+// Pull
+git pull origin master
+
+// cuando ingresamos a un apartado de git sobre la especificacion del commit:
+seleccionamos nombre del commit 
+escape
+:wq
+
+// Historial de hit commit
+git log
+
+-> salir con q
+
+// Clonar un repositorio
+
+git init
+git remote add origin /urlacloar/
+git remote -v
+git pull origin master
+
+// Informacion de ramas
+git fetch
+
+// Cambiar de rama de trabajo
+git cheackout /develop/
+
+// Help
+git --help
+
+
